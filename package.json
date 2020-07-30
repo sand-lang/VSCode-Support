@@ -1,0 +1,36 @@
+{
+    "name": "sand",
+    "displayName": "Sand",
+    "description": "Sand Language Support",
+    "publisher": "Sand-Lang",
+    "version": "0.1.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sand-lang/VSCode-Support.git"
+    },
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sand",
+            "aliases": ["Sand", "sand"],
+            "extensions": [".sd", ".snd", ".sand"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sand",
+            "scopeName": "source.sand",
+            "path": "./syntaxes/xenon.tmLanguage.json"
+        }],
+        "snippets": [
+            {
+              "language": "sand",
+              "path": "./snippets.json"
+            }
+        ]
+    }
+}
