@@ -24,7 +24,7 @@
         "grammars": [{
             "language": "sand",
             "scopeName": "source.sand",
-            "path": "./syntaxes/xenon.tmLanguage.json"
+            "path": "./syntaxes/sand.tmLanguage.json"
         }],
         "snippets": [
             {
